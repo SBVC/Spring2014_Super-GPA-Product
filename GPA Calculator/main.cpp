@@ -13,6 +13,7 @@ int main(){
     int total;
     int earned;
     double results;
+    char again;
     
     cout << "Enter the grades earned per class";
     cin  >> earned;
@@ -21,12 +22,13 @@ int main(){
     cin  >> total;
     
     do{
-        results=(earned * total) / total;
+        results = ( earned * total ) / total;
         cout << "Your GPA is " << results;
         cout << " Do you want to calculate your GPA agian? yes (y) or no (n)";
         cin  >> again;
-        while(agian == 'y' || agiain ++'Y');
     }
+    while ( again == 'y' || again == 'Y' );
+    return 0;
     
 }
 
