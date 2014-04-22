@@ -26,7 +26,7 @@ int main(){
         cout << "Your GPA is " << results;
         cout << " Do you want to calculate your GPA again?(Y or N)?";
         cin  >> again;}
-        while(again == 'y' || again ++'Y');
+        while(again == 'y' || again =='Y');
         return = 0;
     
 }
