@@ -24,11 +24,18 @@ int main(){
     do{
         results = ( earned * total ) / total;
         cout << "Your GPA is " << results;
+<<<<<<< HEAD
         cout << " Do you want to calculate your GPA agian? yes (y) or no (n)";
         cin  >> again;
     }
     while ( again == 'y' || again == 'Y' );
     return 0;
+=======
+        cout << " Do you want to calculate your GPA again?(Y or N)?";
+        cin  >> again;}
+        while(again == 'y' || again ++'Y');
+        return = 0;
+>>>>>>> FETCH_HEAD
     
 }
 
